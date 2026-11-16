@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PH City Explorer</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+
+<body>
+
+    <h1>PH City Explorer</h1>
+
+    <form id="searchForm">
+        <label for="cityInput">City name</label>
+        <input id="cityInput" type="search" placeholder="Try Manila" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="status" role="status"></p>
+
+   
+    <div id="map" style="height: 500px;"></div>
+
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
